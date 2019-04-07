@@ -455,9 +455,26 @@ ul {
 	}
 	.profile-pic{
 		position: fixed;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-align-items: -moz-flex-end;
+		-webkit-align-items: -webkit-flex-end;
+		-ms-align-items: -ms-flex-end;
+		align-items: flex-end;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		align-content: flex-end;
 		height:100%;
 		width:100%;
 		object-fit: cover;
+		z-index: -1;
 	}
 
 	#header-top{
@@ -501,7 +518,6 @@ ul {
 	}
 	.row > .col-6 {
 		width: 100%;
-
 	}
 
 	#footer{
