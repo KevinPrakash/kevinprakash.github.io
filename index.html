@@ -6,12 +6,23 @@
 		<meta name="viewport" content="width=device-width height = device-width, initial-scale=1, user-scalable=yes" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/png" href="images/favicon.png" sizes="64x64" />
+		<link rel=”apple-touch-icon” href=”images/favicon.pngg” />
 		<meta name="Description" content="Personal Website">
 		<meta name="application-name" content="&nbsp;"/>
 		<meta name="msapplication-TileColor" content="#FFFFFF" />
 		<meta name="msapplication-TileImage" content="images/mstile-144x144.png" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
 		<meta name="theme-color" content="#000000">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137964980-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-137964980-1');
+		</script>
+
 	</head>
 	<body class="is-preload">
 
@@ -19,8 +30,8 @@
 			<header id="header">
 				<img src="images/bg.jpg" class ="profile-pic" alt="Kevin Prakash" />
 				<div id="header-top">
-					<h1><strong>Kevin Prakash</strong></h1>
-					<h2>III Year ECE</h2>
+					<h1><strong>Kevin Prakash</strong>
+						<div id="only-comp">III Year</br> ECE</div></h1>
 				</div>
 				<div id="header-bottom">
 					<ul class="icons">
@@ -29,7 +40,7 @@
 						<li><a href="mailto:kevinprakash30@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<div class="copyright">
-						&copy; KP | Version 1.0.3
+						&copy; KP | Version 2.0.0
 					</div>
 				</div>
 			</header>
@@ -49,23 +60,24 @@
 						<h2>Projects</h2>
 						<div class="row">
 							<article class="col work-item">
-								<a href="https://neuraldot.github.io/" class="image fit thumb"><img src="images/thumbs/p_1.png" alt="" /></a>
 								<h3>Neural Dot</h3>
-								<p>A reasearch group initiated by us in BMSCE to introduce students to the domain of ML</p>
+								<a href="https://neuraldot.github.io/" class="image fit thumb"><img src="images/thumbs/p_1.jpg" alt="Neural Dot" /></a>
+								
+								<p>A research group initiated in BMSCE to introduce students to the domain of ML</p>
 							</article>
 							<article class="col work-item">
-								<a href="https://github.com/KevinPrakash/Photo-Sort" class="image fit thumb"><img src="images/thumbs/p_2.jpg" alt="Photo-Sort" /></a>
 								<h3>Photo Sorting</h3>
-								<p>Python Code to sort photos based on faces using ML</p>
+								<a href="https://github.com/KevinPrakash/Photo-Sort" class="image fit thumb"><img src="images/thumbs/p_2.jpg" alt="Photo-Sort" /></a>
+								<p>Identifies people in photos and sorts them based on the face </p>
 							</article>
 							<article class="col work-item">
-								<a href="https://github.com/KevinPrakash/Snake-graphical" class="image fit thumb"><img src="images/thumbs/p_3.gif" alt="" /></a>
 								<h3>Classic Snake</h3>
-								<p>Classic Snake made from scratch on C++</p>
+								<a href="https://github.com/KevinPrakash/Snake-graphical" class="image fit thumb"><img src="images/thumbs/p_3.gif" alt="Snake" /></a>
+								<p>Classic Snake devoleped in C++ using SFML</p>
 							</article>
 							<article class="col work-item">
-								<a href="https://github.com/KevinPrakash/TinyImageNet" class="image fit thumb"><img src="images/thumbs/p_4.gif" alt="" /></a>
 								<h3>Tiny Net Image Classifier</h3>
+								<a href="https://github.com/KevinPrakash/TinyImageNet" class="image fit thumb"><img src="images/thumbs/p_4.gif" alt="Tiny Image Net" /></a>
 								<p>55% accuracy wihout pretrained weights.</p>
 							</article>
 						</div>
@@ -79,9 +91,12 @@
 						<li><a href="mailto:kevinprakash30@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 					<div class="copyright">
-						&copy; KP | Version 1.0.3
+						&copy; KP | Version 2.0.0
 					</div>
 			</footer>
+			<div id ="button" class="button">
+				DARK
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
