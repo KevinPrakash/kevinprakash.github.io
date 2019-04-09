@@ -180,6 +180,9 @@ h6 {
 	box-shadow: 2px 0 8px #000000;
 }
 .profile-pic{
+	padding:0;
+	margin:0;
+	top:0;
 	max-width:100%;
 	max-height:50%;
 	width:100%;
@@ -232,6 +235,7 @@ ul {
 	list-style: disc;
 	margin: 0 0 0 0;
 	padding-left: 1em;
+	padding-bottom:0.5em;
 }
 
 	ul li {
@@ -283,6 +287,7 @@ ul {
 	background-color: rgba(255, 255, 255, 0.7);
 	border: 2px solid #000000;
 	border-radius: 10px;
+	user-select: none;
 	cursor: pointer;
 }
 .button:hover{
@@ -302,6 +307,10 @@ ul {
 	font-style: normal;
 	font-weight: normal;
 	text-transform: none !important;
+	margin:0;
+	padding:0.2em;
+	border:2px solid #ffffff;
+	border-radius: 10px;
 }
 
 .icon > .label {
@@ -483,8 +492,12 @@ ul {
 	#header{
 		width: 100%;
 		position: unset;
+		background-color: rgba(255, 255, 255, 0.1);
 	}
 	.profile-pic{
+		padding:0;
+		margin:0;
+		top:0;
 		max-width:100%;
 		max-height:100%;
 		position: fixed;
@@ -518,6 +531,11 @@ ul {
 	#header .copyright{
 			display: none;
 	}
+	#footer a:hover {
+		border-bottom-color: transparent;
+		color: #000000 !important;
+		text-decoration: none;
+	}
 
 	#main{
 		position: relative;
@@ -542,7 +560,7 @@ ul {
 		display:block;
 		position:relative;
 		align-content: center;
-		padding:0.5em 0.5em 0.5em 0.5em;
+		padding:1em 0.5em 0.5em 0.5em;
 		margin:1em 0.5em 0.5em 0.5em;
 		background-color: #49bf9d;
 		border-radius: 10px;				
