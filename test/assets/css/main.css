@@ -310,7 +310,7 @@ ul {
 	text-transform: none !important;
 	margin:0;
 	padding:0.2em;
-	border:2px solid #ffffff;
+	border:1px solid #ffffff;
 	border-radius: 10px;
 }
 
@@ -499,6 +499,8 @@ ul {
 	h1{
 		font-size:1.7em !important;
 	}
+	ul.icons li .icon:before {
+		font-size: 1em;
 }
 
 @media only screen and (max-height: 480px){
@@ -507,6 +509,9 @@ ul {
 	}
 	h1{
 		font-size:1.7em !important;
+	}
+	ul.icons li .icon:before {
+		font-size: 1em;
 	}
 }
 
