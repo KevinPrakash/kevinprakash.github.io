@@ -1,5 +1,5 @@
 
-var buttonstate = 0;
+var buttonstate = 1;
 var width = $(window).width();
 var height = $(window).height();
 
