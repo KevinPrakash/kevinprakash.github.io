@@ -1,5 +1,5 @@
 
-var buttonstate = 1;
+var buttonstate = 0;
 var width = $(window).width();
 var height = $(window).height();
 
@@ -48,36 +48,7 @@ function set_black_phone()
     document.getElementById('footer').style.background = '#c51f5d'
 }
 
-window.onload = function(){
-    if(width > 640)
-    {
-        document.getElementById('main').style.background = 'rgba(0,0,0,0)';
-        if (buttonstate == 1)
-        {
-            set_black_comp();
-            buttonstate = 0;
-        }
-        else
-        {
-            set_white_comp();
-            buttonstate = 1;
-        }
-    }
-    else
-    {
-        document.getElementById('main').style.background = 'rgba(0,0,0,0.8)';
-        if(buttonstate == 1)
-        {
-            set_black_phone();
-            buttonstate = 0;
-        }
-        else
-        {
-            set_white_phone();
-            buttonstate = 1;
-        }
-    }
-};
+
 window.onresize = function(){
     width = $(window).width()
     if(width < 640)

@@ -492,6 +492,7 @@ ul {
 		height:auto;
 	}
 }
+
 @media only screen and (max-device-height: 480px){
 	#only-comp{
 		display:none !important ;
@@ -501,6 +502,7 @@ ul {
 	}
 	ul.icons li .icon:before {
 		font-size: 1em;
+	}
 }
 
 @media only screen and (max-height: 480px){
