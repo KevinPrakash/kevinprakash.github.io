@@ -96,6 +96,7 @@ a {
 	}
 
 strong, b {
+	line-height:1em;
 	font-weight: 400;
 }
 
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2.5em;
-	line-height: 1.5em;
+	line-height: 1.2em;
 }
 
 h2 {
@@ -377,6 +378,7 @@ ul {
 			transition: opacity 0.2s ease-in-out;
 			border-radius: 0.35em;
 			border: solid 3px rgba(255, 255, 255, 0.5);
+			background-color:rgba(0, 0, 0, 0.7);
 			color: #fff;
 			content: 'View';
 			display: inline-block;
@@ -399,6 +401,7 @@ ul {
 		}
 
 	.image img {
+		background-color: #000000;
 		border-radius: 0.35em;
 		display: block;
 		object-fit: fill;
@@ -437,6 +440,10 @@ ul {
 		line-height: 1.5em;
 		margin: 0;
 	}
+.vid{
+	border-radius:0.35em;
+}
+
 
 @media screen and (max-width: 1400px) {
 	br{
@@ -485,7 +492,23 @@ ul {
 		height:auto;
 	}
 }
+@media only screen and (max-device-height: 480px){
+	#only-comp{
+		display:none !important ;
+	}
+	h1{
+		font-size:1.7em !important;
+	}
+}
 
+@media only screen and (max-height: 480px){
+	#only-comp{
+		display:none;
+	}
+	h1{
+		font-size:1.7em !important;
+	}
+}
 
 @media screen and (max-width: 640px) {
 
@@ -600,3 +623,4 @@ ul {
 	}
 	
 }
+
