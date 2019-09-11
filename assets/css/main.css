@@ -79,7 +79,6 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-	border-bottom: dotted 1px;
 	text-decoration: none;
 	color: #ffffff;
 }
@@ -215,6 +214,7 @@ h6 {
 
 .copyright {
 	font-size: 0.8em;
+	color:#000000;
 }
 
 #main{
@@ -408,7 +408,7 @@ ul {
 
 	.image.fit {
 		display: block;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		width: 100%;
 		max-height: 70%;
 		
@@ -419,17 +419,17 @@ ul {
 		}
 
 .work-item {
-	margin: 0.5em 0 2em 0;
+	margin: 0.5em 0 0.5em 0;
 	padding:0 2% 0 2%;
 }
 
 	.work-item .image {
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 	.work-item h3 {
 		font-size: 1.3em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 		font-weight: 500;
 	}
 
@@ -440,6 +440,10 @@ ul {
 	}
 .vid{
 	border-radius:0.35em;
+}
+
+version{
+	color:#000000 !important;
 }
 
 
@@ -619,11 +623,11 @@ ul {
 	
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #49bf9d !important;
 			text-decoration: none;
 		}
 	.work-item {
-		margin: 0.5em 0 2em 0;
+		margin: 0.5em 0 0.5em 0;
 		padding:0 1% 0 1%;
 	}
 	

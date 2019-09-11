@@ -1,7 +1,21 @@
-# Test V 2.6.0   
+# kevinprakash.github.io
 
-+ Better readability on phone when in landscape mode.
-+ Changed profile pic to show face in the center.
-+ Converted p_4 from gif to mp4 (result faster load lesser data consumption by 1.6mb)
-+ Made dark mode the default.
-+ Changed text for p_4.
++ V - 1.0.0      
+  * Initial Commit
++ V - 1.0.1      
+  * Made IE and Edge friendly.
+  * Changed heaedr position from percentage to em.
++ V - 2.0.0  date: 7/04/19     
+  * Introduced Dark Mode.
+  * Changed text.
++ V -2.5.0    
+  * Added google analytics.
+  * Fixed safari background misalignment issue.
+  * Corrected spelling.
+  * Added favicon for apple devices.
++ V -2.6.0 date:11/04/19
+  * Better readability on phone when in landscape mode.
+  * Changed profile pic to show face in the center.
+  * Converted all gif's to mp4's (result faster load lesser data consumption by 2mb).
+  * Changed text.
+  * Reduced border size for fa icons.
