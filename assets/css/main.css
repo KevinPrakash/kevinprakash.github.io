@@ -81,6 +81,7 @@ a {
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	text-decoration: none;
 	color: #ffffff;
+
 }
 
 	a:hover {
@@ -127,6 +128,8 @@ h2 {
 	font-size: 1.5em;
 	line-height: 1.5em;
 	padding-left: 1em;
+	text-decoration: underline;
+	text-decoration-line: underline;
 }
 
 h3 {
@@ -178,6 +181,9 @@ h6 {
 	justify-content: space-between;
 	align-content: flex-end;
 	box-shadow: 2px 0 8px #000000;
+}
+br{
+	display: none;
 }
 .profile-pic{
 	padding:0;
@@ -340,7 +346,6 @@ ul {
 			padding: 0 0 0 0;
 		}
 
-
 .image {
 	border-radius: 0.35em;
 	border: 0;
@@ -438,6 +443,73 @@ ul {
 		line-height: 1.5em;
 		margin: 0;
 	}
+
+table {
+	border-collapse: collapse;
+	margin-left: 1em;
+	margin-bottom: 1.5em;
+	}
+	
+	table, th, td {
+	border: none;
+	height: 30%;
+	vertical-align: middle;
+	}
+
+.logo {
+	width: 20%;
+}
+.logo img{
+	display:block; 
+	width:100%; 
+	height:auto;
+	border-radius: 0.35em;
+}
+.company-name{
+	font-weight: 700;
+	font-size: 1.3em;
+	padding-left: 5%;
+	width: 40%;
+	text-align:left;
+}
+.details{
+	padding-left: 5%;
+	width: 40%;
+	text-align:left;
+}
+.role{
+	font-style: italic;
+	width: 40%;
+	text-align:right;
+}
+
+.logo-phone {
+	width: 100%;
+}
+.logo-phone img{
+	display:block; 
+	width:100%; 
+	height:auto;
+	border-radius: 0.35em;
+}
+.company-name-phone{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-weight: 700;
+	font-size: 2em;
+	text-align:center;
+}
+.details-phone{
+	text-align:center;
+}
+.role-phone{
+	font-style: italic;
+	text-align:center;
+}
+#only-phone{
+	display:none;
+}
+
 .vid{
 	border-radius:0.35em;
 }
@@ -448,21 +520,24 @@ version{
 
 
 @media screen and (max-width: 1400px) {
-	br{
-		display:none;
-	}
-	
+
 	.image img {
 		border-radius: 0.35em;
 		display: block;
 		object-fit: fill;
 		width:45%;
 	}
+	#only-phone{
+		display:none;
+	}
 
 }
 
 
 @media screen and (max-width: 1100px) {
+	#role-hide{
+		display: none;
+	}
 	#header{
 		width: 45%;
 	}
@@ -493,11 +568,43 @@ version{
 		object-fit: fill;
 		height:auto;
 	}
+	.logo {
+		width: 30%;
+	}
+	.logo img{
+		display:block; 
+		width:100%; 
+		height:auto;
+		border-radius: 0.35em;
+	}
+	.company-name{
+		font-weight: 700;
+		font-size: 1.3em;
+		padding: 1em;
+		width: 50%;
+		text-align:left;
+	}
+	.details{
+		padding-left: 1em;
+		width: 40%;
+		text-align:left;
+	}
+	.role{
+		font-style: italic;
+		width: 20%;
+		text-align:right;
+	}
+	#only-phone{
+		display:none;
+	}
 }
 
 @media only screen and (max-device-height: 480px){
 	#only-comp{
 		display:none !important ;
+	}
+	#only-phone{
+		display:block;
 	}
 	h1{
 		font-size:1.7em !important;
@@ -508,6 +615,9 @@ version{
 }
 
 @media only screen and (max-height: 480px){
+	#only-phone{
+		display:block;
+	}
 	#only-comp{
 		display:none;
 	}
@@ -520,7 +630,9 @@ version{
 }
 
 @media screen and (max-width: 640px) {
-
+	#only-phone{
+		display:block;
+	}
 	#header{
 		width: 100%;
 		position: unset;
@@ -630,6 +742,11 @@ version{
 		margin: 0.5em 0 0.5em 0;
 		padding:0 1% 0 1%;
 	}
+	table {
+		border-collapse: collapse;
+		margin-left: 0em;
+		margin-bottom: 1.5em;
+		}
 	
 }
 

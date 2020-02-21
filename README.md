@@ -20,6 +20,10 @@
   * Changed text.
   * Reduced border size for fa icons.
  + V -2.8.0 date:11/09/19
- * Improved readability
- * Increased accessibility
- * Changed to 4th year
+  * Improved readability
+  * Increased accessibility
+  * Changed to 4th year
++ V -3.0.0 date:21/02/20
+  * Updated Projects to add V.I.E.W
+  * Added Work Experience column
+  * Updated resume file
