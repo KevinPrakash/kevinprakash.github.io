@@ -27,3 +27,6 @@
   * Updated Projects to add V.I.E.W
   * Added Work Experience column
   * Updated resume file
++ V -4.0.0 date:09/02/21
+  * Added new job
+  * Updated resume file

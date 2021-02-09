@@ -72,7 +72,7 @@ body, input, select, textarea {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 16pt;
 	font-weight: 400;
-	line-height: 1.75em;
+	line-height: 120%;
 }
 a {
 	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -182,9 +182,10 @@ h6 {
 	align-content: flex-end;
 	box-shadow: 2px 0 8px #000000;
 }
-br{
+/*br{
 	display: none;
-}
+}*/
+
 .profile-pic{
 	padding:0;
 	margin:0;
@@ -236,7 +237,16 @@ br{
 	font-weight: 500;
 }
 
-
+.company-name{
+	vertical-align: top;
+	padding-bottom: 2%;
+}
+.role{
+	vertical-align: top;
+}
+.doj{
+	vertical-align: bottom;
+}
 
 ul {
 	list-style: disc;
@@ -471,13 +481,20 @@ table {
 	padding-left: 5%;
 	width: 40%;
 	text-align:left;
+	vertical-align: top;
 }
 .details{
 	padding-left: 5%;
-	width: 40%;
+	width: 50%;
+	line-height: 120%;
 	text-align:left;
 }
 .role{
+	font-style: italic;
+	width: 40%;
+	text-align:right;
+}
+.doj{
 	font-style: italic;
 	width: 40%;
 	text-align:right;
@@ -503,6 +520,10 @@ table {
 	text-align:center;
 }
 .role-phone{
+	font-style: italic;
+	text-align:center;
+}
+.doj-phone{
 	font-style: italic;
 	text-align:center;
 }
@@ -580,16 +601,22 @@ version{
 	.company-name{
 		font-weight: 700;
 		font-size: 1.3em;
-		padding: 1em;
 		width: 50%;
 		text-align:left;
+		vertical-align: top;
 	}
 	.details{
 		padding-left: 1em;
-		width: 40%;
+		width: 50%;
+		line-height: 120%;
 		text-align:left;
 	}
 	.role{
+		font-style: italic;
+		width: 20%;
+		text-align:right;
+	}
+	.doj{
 		font-style: italic;
 		width: 20%;
 		text-align:right;
@@ -598,6 +625,8 @@ version{
 		display:none;
 	}
 }
+
+
 
 @media only screen and (max-device-height: 480px){
 	#only-comp{
