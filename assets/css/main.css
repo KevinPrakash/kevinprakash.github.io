@@ -458,9 +458,10 @@ table {
 	border-collapse: collapse;
 	margin-left: 1em;
 	margin-bottom: 1.5em;
+	width: 100%;
 	}
 	
-	table, th, td {
+table, th, td {
 	border: none;
 	height: 30%;
 	vertical-align: middle;
@@ -469,6 +470,7 @@ table {
 .logo {
 	width: 20%;
 }
+
 .logo img{
 	display:block; 
 	width:100%; 
@@ -478,25 +480,27 @@ table {
 .company-name{
 	font-weight: 700;
 	font-size: 1.3em;
-	padding-left: 5%;
-	width: 40%;
+	padding-left: 3%;
+	width: 50%;
 	text-align:left;
 	vertical-align: top;
 }
 .details{
-	padding-left: 5%;
-	width: 50%;
+	padding-left: 3%;
+	padding-top:1em;
+	width: 100%;
 	line-height: 120%;
 	text-align:left;
 }
 .role{
-	font-style: italic;
 	width: 40%;
-	text-align:right;
+	padding-left:5%;
+	text-align:left;
 }
 .doj{
+	padding-left:1em;
 	font-style: italic;
-	width: 40%;
+	width: 35%;
 	text-align:right;
 }
 
