@@ -191,7 +191,7 @@ h6 {
 	margin:0;
 	top:0;
 	max-width:100%;
-	max-height:50%;
+	max-height:45%;
 	width:100%;
 	object-fit: cover;
 	height: auto;
@@ -201,7 +201,7 @@ h6 {
 
 #header-top{
 	position: absolute;
-	top:55%;
+	top:50%;
 	right:0;
 	margin:0.5em 0 0 0;
 	padding: 0 5% 0 0; 
