@@ -35,3 +35,5 @@
   * Fixed indentation in HTML
   * Added compatibility for multiple job roles in same company in HTML
   * Updated resume file
++ V - 4.0.6 date: 9/1/24
+  * Added job role update
